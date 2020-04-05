@@ -1,4 +1,24 @@
-# master developing......
-### music and book applet，which is designed for displaying book info and supporting music playing,funny! 
-### 书乐，实现一款支持书籍信息展示和音乐播放的小程序，有趣
-![avatar](./images/test.jpg)
+# hello-world
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
