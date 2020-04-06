@@ -6,6 +6,7 @@
 
 **⚠️ 本项目仅供学习交流，不得用于商业用途**
 
+
 ### 依赖安装
 ```
 yarn install
@@ -20,6 +21,11 @@ yarn serve
 ```
 yarn build
 ```
+
+### 音乐服务 
+
+### [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+
 
 ### 免责声明
 
