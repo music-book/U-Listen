@@ -1,4 +1,4 @@
-import request from "../utils/request";
+import request from "@/utils/request";
 
 // 获取 top mv 列表
 export async function getPopularList(limit = 10) {

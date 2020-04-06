@@ -1,6 +1,6 @@
 <template>
   <div class="mv-list-container">
-    <div class="main-title">U-Listen,听见不一样到世界</div>
+    <div class="main-title">U-Listen,听见不一样的世界</div>
     <div class="search-wrap">
       <el-input
         placeholder="请输入内容"
@@ -30,15 +30,16 @@
         :song="item"
       ></SingleSong>
     </div>
-    <div class="mv-content"><MVContent></MVContent></div>
+    <!-- top 10 MV -->
+    <MVContent></MVContent>
   </div>
 </template>
 
 <script>
-import { search, getSongURL } from "../api/search";
-import typeList from "../utils/typeOptions";
+import { search, getSongURL } from "@/api/search";
+import typeList from "@/utils/typeOptions";
 import MVContent from "./mv/index";
-import SingleSong from "../components/MusicList";
+import SingleSong from "@/components/MusicList";
 export default {
   components: {
     SingleSong,
@@ -96,11 +97,6 @@ export default {
 
   .song-list-content {
     display: inline-block;
-  }
-
-  .mv-content {
-    display: flex;
-    justify-content: center;
   }
 }
 </style>

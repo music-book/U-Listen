@@ -1,4 +1,4 @@
-import request from "../utils/request";
+import request from "@/utils/request";
 
 // 搜索
 export async function search(words, limit = 10, type = 1) {

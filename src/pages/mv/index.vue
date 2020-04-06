@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import VideoComponent from "../../components/VideoComponent";
-import { getPopularList, getMvURL } from "../../api/mv";
+import VideoComponent from "@/components/VideoComponent";
+import { getPopularList, getMvURL } from "@/api/mv";
 export default {
   components: { VideoComponent },
   data() {
