@@ -37,7 +37,7 @@
 import SingleSong from "@/components/MusicList";
 import { search, getSongURL } from "@/api/search";
 import { loginByPhone } from "@/api/login";
-import { getLyric } from "@/api/song";
+import { getLyric, getSongDetail } from "@/api/song";
 import typeList from "@/utils/typeOptions";
 import defaultList from "./default";
 export default {
@@ -56,9 +56,7 @@ export default {
 
   methods: {
     login() {
-      loginByPhone(13824397591, "qj123456").then(res => {
-        console.log(res);
-      });
+      loginByPhone(13824397591, "").then(() => {});
     },
     convertSongs(songs, urlArray) {
       let songsInfo = [];
@@ -70,7 +68,7 @@ export default {
               src: el.url,
               title: item.name,
               artist: artists,
-              pic: item.album.artist.img1v1Url,
+              pic: el.pic ? el.pic : item.album.artist.img1v1Url,
               lrc: el.lyric,
               theme: "rgb(211, 99, 35)"
             };
@@ -89,15 +87,21 @@ export default {
       for (let i = 0, len = songs.length; i < len; i++) {
         let singleSong = await getSongURL(songs[i].id);
         let songLyric = await getLyric(songs[i].id);
+        let songDetail = await getSongDetail(songs[i].id);
         let songInfo = singleSong.data.data[0];
-        songInfo.lyric = songLyric.data.lrc.lyric;
+        let details = songDetail.data.songs[0].al.picUrl;
+        try {
+          songInfo.lyric = songLyric.data.lrc.lyric;
+          songInfo.pic = details;
+        } catch (error) {
+          console.log(error);
+        }
+
         list.push(songInfo);
       }
 
       this.songList = this.convertSongs(songs, list);
-      console.log(list);
       this.loading = false;
-      console.log(this.convertSongs(songs, list));
     }
   }
 };

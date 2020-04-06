@@ -1,112 +1,103 @@
 const defaultList = [
   {
-    src:
-      "http://m7.music.126.net/20200406214016/66b81ff35e3a9c8e0d6655cbea9f6f53/ymusic/8bfb/a777/69ab/385a34c11e3c2fe84a86c358ab19a1b4.mp3",
-    title: "魔术与歌曲：告白气球",
-    artist: "周杰伦,蔡威泽",
+    src: null,
+    title: "True",
+    artist: "MARINA",
     pic:
-      "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+      "https://p1.music.126.net/L6nyte9NDvaaThrL8_1dPA==/109951164024311847.jpg",
     lrc:
-      "[00:00.000] 作曲 : 周杰伦\n[00:01.000] 作词 : 方文山\n[01:13.250]塞纳河畔 左岸的咖啡\n[01:15.560]我手一杯 品尝你的美\n[01:18.570]留下唇印的嘴\n[01:21.480]\n[01:23.420]花店玫瑰 名字写错谁\n[01:25.960]告白气球 风吹到对街\n[01:29.090]微笑在天上飞\n[01:32.050]\n[01:33.060]你说你有点难追 想让我知难而退\n[01:38.310]礼物不需挑最贵 只要香榭的落叶\n[01:43.650]喔～营造浪漫的约会 不害怕搞砸一切\n[01:49.100]拥有你就拥有 全世界\n[01:53.370]\n[01:54.040]亲爱的 爱上你 从那天起\n[02:00.300]甜蜜的很轻易\n[02:04.810]亲爱的 别任性 你的眼睛\n[02:10.920]在说我愿意\n[02:15.510]亲爱的 爱上你 恋爱日记\n[02:15.630]\n[02:21.820]飘香水的回忆\n[02:26.160]一整瓶 的梦境 全都有你\n[02:32.340]搅拌在一起\n[02:36.140]\n[02:36.830]亲爱的别任性 你的眼睛\n[02:51.830]在说我愿意\n",
+      "[by:Trap_Girl]\n[00:00.000] 作曲 : Oscar Holter/Marina Diamandis/Noonie Bao/Oscar Gorres\n[00:08.08]Everybody tells us what to do, do, do\n[00:11.52]Think they always know what's good for you, you, you\n[00:15.38]We know they don't really have a clue, clue, clue\n[00:19.41]Ooh-ooh-ooh\n[00:23.57]People like to tell you what to think think think\n[00:27.21]Sometimes it's right to do the wrong, wrong thing\n[00:31.19]Let it go and listen to your own instincts\n[00:35.12]Oooh-ooh-ooh\n[00:37.62]Cause you don't need nobody else\n[00:41.96]When you are true to yourself, true to yourself\n[00:45.93]You're skin and bone, you're full of fear\n[00:49.81]But you are just a human being(no matter what they do)\n[00:55.07]Always said we are gonna be true\n[00:57.88]We will never change, we will never change\n[01:01.85]They can never do it better\n[01:06.06]And where we are are together\n[01:10.14]Always said we are gonna be true\n[01:13.59]We will never change, we will never change\n[01:17.49]They can never do it better\n[01:21.79]And where we are are together\n[01:25.86]Don't need to add anything to your skin, skin, skin\n[01:30.27]Be happy with the body that you're in, in, in\n[01:34.04]Being who you are don't cost a thing, thing, thing\n[01:38.00]Ooh-ooh-ooh\n[01:41.43]Cause you don't need nobody else\n[01:44.84]When you are true to yourself, true to yourself\n[01:48.79]You're skin and bone, you're full of fear\n[01:52.67]But you are just a human being\n[01:56.78](No matter what they do)\n[01:58.18]Always said we are gonna be true\n[02:01.20]We will never change, we will never change\n[02:04.66]They can never do it better\n[02:09.00]And where we are are together\n[02:12.97]Always said we are gonna be true\n[02:16.72]We will never change, we will never change\n[02:20.49]They can never do it better\n[02:24.71]And where we are are together\n[02:43.23](No matter what they do)\n[02:45.35]Always said we are gonna be true\n[02:48.15]We will never change, we will never change\n[02:51.98]They can never do it better\n[02:56.24]And where we are are together\n[03:00.23]Always said we are gonna be true\n[03:04.11]We will never change, we will never change\n[03:07.68]They can never do it better\n[03:11.99]And where we are are together\n[03:16.27]\n",
     theme: "rgb(211, 99, 35)"
   },
   {
     src:
-      "http://m8.music.126.net/20200406214017/661e6f7db028fa7e3c069f0f502a23a2/ymusic/d6d3/7aac/9aed/802e6b3a1bd34a18927f4adab563690a.mp3",
-    title: "屋顶",
-    artist: "温岚,周杰伦",
+      "http://m8.music.126.net/20200406220459/f7d1556ffeb50f70ac47373a19e93bd9/ymusic/0e0b/045d/055b/9afaf6743a37066fad7121f16dc739fe.mp3",
+    title: "True",
+    artist: "MARINA",
     pic:
-      "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+      "https://p2.music.126.net/7B2EhnaLUJaGEkxUnMd_bw==/109951163975066774.jpg",
     lrc:
-      "[00:00.000] 作曲 : 周杰伦\n[00:01.000] 作词 : 周杰伦\n[00:23.74]半夜睡不着觉把心情哼成歌\n[00:29.15]只好到屋顶找另一个梦境\n[00:40.10]睡梦中被敲醒我还是不确定\n[00:45.55]怎会有动人弦律在对面的屋顶\n[00:51.10]我悄悄关上门带着希望上去\n[00:56.43]原来是我梦里常出现的那个人\n[01:00.74]那个人不就是我梦里\n[01:03.89]那模糊的人\n[01:06.19]我们有同样的默契\n[01:11.55]用天线\n[01:12.98]用天线排成爱你的形状hoho\n[01:20.81]在屋顶唱着你的歌\n[01:23.93]在屋顶和我爱的人\n[01:26.63]让星星点缀成最浪漫的夜晚\n[01:32.49]拥抱这时刻这一分一秒全都停止\n[01:40.74]爱开始纠结\n[01:42.94]在屋顶唱着你的歌\n[01:45.71]在屋顶和我爱的人\n[01:48.43]将泛黄的的夜献给最孤独的月\n[01:54.31]拥抱这时刻这一分一秒全都停止\n[02:02.56]爱开始纠结梦有你而美\n[02:42.63]半夜睡不着觉把心情哼成歌\n[02:48.43]只好到屋顶找另一个梦境\n[02:59.17]睡梦中被敲醒我还是不确定\n[03:04.76]怎会有动人弦律在对面的屋顶\n[03:10.24]我悄悄关上门带着希望上去\n[03:15.71]原来是我梦里常出现的那个人\n[03:19.97]那个人不就是我梦里\n[03:22.76]那模糊的人\n[03:25.29]我们有同样的默契\n[03:30.66]用天线\n[03:32.16]用天线排成爱你的形状hoho\n[03:40.27]在屋顶唱着你的歌\n[03:43.18]在屋顶和我爱的人\n[03:45.86]让星星点缀成最浪漫的夜晚\n[03:51.86]拥抱这时刻这一分一秒全都停止\n[04:00.80]爱开始纠结\n[04:02.13]在屋顶唱着你的歌\n[04:04.94]在屋顶和我爱的人\n[04:07.59]将泛黄的的夜献给最孤独的月\n[04:13.59]拥抱这时刻这一分一秒全都停止\n[04:21.85]爱开始纠结梦有你而美\n[04:37.70]让我爱你是谁\n[04:40.31]让你爱我是谁\n[04:43.16]怎会有动人弦律环绕在我俩的身边\n[04:48.39]让我爱你是谁\n[04:51.30]让你爱我是谁\n[04:54.00]原来是这屋顶有美丽的邂逅\n[05:04.50]在屋顶唱着你的歌\n[05:07.10]在屋顶和我爱的人\n",
+      "[by:Trap_Girl]\n[00:00.000] 作曲 : Oscar Holter/Marina Diamandis/Noonie Bao/Oscar Gorres\n[00:08.08]Everybody tells us what to do, do, do\n[00:11.52]Think they always know what's good for you, you, you\n[00:15.38]We know they don't really have a clue, clue, clue\n[00:19.41]Ooh-ooh-ooh\n[00:23.57]People like to tell you what to think think think\n[00:27.21]Sometimes it's right to do the wrong, wrong thing\n[00:31.19]Let it go and listen to your own insticts\n[00:35.12]Oooh-ooh-ooh\n[00:37.62]Cause you don't need nobody else\n[00:41.96]When you are true to yourself, true to yourself\n[00:45.93]You're skin and bone, you're full of fear\n[00:49.81]But you are just a human being(no matter what they do)\n[00:55.07]Always said we are gonna be true\n[00:57.88]We will never change, we will never change\n[01:01.85]They can never do it better\n[01:06.06]And where we are are together\n[01:10.14]Always said we are gonna be true\n[01:13.59]We will never change, we will never change\n[01:17.49]They can never do it better\n[01:21.79]And where we are are together\n[01:25.86]Don't need to add anything to your skin, skin, skin\n[01:30.27]Be happy with the body that you're in, in, in\n[01:34.04]Being who you are don't cost a thing, thing, thing\n[01:38.00]Ooh-ooh-ooh\n[01:41.43]Cause you don't need nobody else\n[01:44.84]When you are true to yourself, true to yourself\n[01:48.79]You're skin and bone, you're full of fear\n[01:52.67]But you are just a human being\n[01:56.78](No matter what they do)\n[01:58.18]Always said we are gonna be true\n[02:01.20]We will never change, we will never change\n[02:04.66]They can never do it better\n[02:09.00]And where we are are together\n[02:12.97]Always said we are gonna be true\n[02:16.72]We will never change, we will never change\n[02:20.49]They can never do it better\n[02:24.71]And where we are are together\n[02:43.23](No matter what they do)\n[02:45.35]Always said we are gonna be true\n[02:48.15]We will never change, we will never change\n[02:51.98]They can never do it better\n[02:56.24]And where we are are together\n[03:00.23]Always said we are gonna be true\n[03:04.11]We will never change, we will never change\n[03:07.68]They can never do it better\n[03:11.99]And where we are are together\n[03:16.27]\n",
     theme: "rgb(211, 99, 35)"
   },
   {
     src:
-      "http://m7.music.126.net/20200406214017/ae184913fb03aaf5e604778902555b9c/ymusic/fd15/fa55/b281/ce2bddd40798ec720acd091d21eb9cbd.mp3",
-    title: "布拉格广场",
-    artist: "蔡依林,周杰伦",
+      "http://m8.music.126.net/20200406220500/9ca022b66177216ef6bd159e57b012b1/ymusic/a140/859f/de58/144591063c733e5958f355ffd380092e.mp3",
+    title: "True",
+    artist: "Jamie Lancaster",
     pic:
-      "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+      "https://p1.music.126.net/q7omMosOtEOP6zKC05JFIg==/1773512255615212.jpg",
     lrc:
-      "[00:00.000] 作曲 : 周杰伦\n[00:00.693] 作词 : 方文山\n[00:02.80]编曲 : 钟兴民\n[04:49.30]制作人 : 周杰伦\n[04:50.30]Rap : 周杰伦\n[04:51.30]童声Rap : 余晋\n[00:20.80]琴键上透着光\n[00:22.01]彩绘的玻璃窗\n[00:23.15]装饰着歌特式教堂\n[00:24.61]谁谁谁弹一段\n[00:26.19]一段流浪忧伤\n[00:27.82]顺着琴声方向看见\n[00:29.22]蔷薇依附十八世纪的油画上\n[00:30.85]在旁\n[00:31.58]静静欣赏\n[00:32.28]在想\n[00:32.90]你的浪漫\n[00:33.50]在看\n[00:34.19]是否多久都一样\n[00:36.06]a a fu shou\n[00:37.47]a a fu shou\n[00:38.49]yap so so sorry\n[00:39.75]so so so\n[00:40.96]moderato yo\n[00:41.51]andantino yo\n[00:42.93]portamento yo\n[00:44.30]fortissimo yo\n[00:45.76]盗贼他偷走\n[00:46.72]修道士说no\n[00:48.04]梦醒来后我\n[00:49.28]一切都都没有\n[00:50.17]\n[01:00.41]我就站在布拉格黄昏的广场\n[01:06.17]在许愿池投下了希望\n[01:11.24]那群白鸽背对着夕阳\n[01:16.31]那画面太美我不敢看\n[01:20.80]布拉格的广场无人的走廊\n[01:26.37]我一个人跳着舞旋转\n[01:31.39]不远地方你远远吟唱\n[01:36.44]没有我你真的不习惯\n[01:41.49]\n[02:25.21]透着光\n[02:25.80]彩绘的玻璃窗\n[02:26.90]装饰着歌特式教堂\n[02:28.32]谁谁谁弹一段\n[02:29.77]一段流浪忧伤\n[02:31.83]顺着琴声方向看见\n[02:32.64]蔷薇依附十八世纪的油画上\n[02:34.72]在旁\n[02:35.52]静静欣赏\n[02:35.99]在想\n[02:36.59]你的浪漫\n[02:37.15]在看\n[02:37.81]是否多久都一样\n[02:39.67]a a fu shou\n[02:40.88]a a fu shou\n[02:42.24]yap so so sorry\n[02:43.44]so so so\n[02:44.26]moderato yo\n[02:45.16]andantino yo\n[02:46.61]portamento yo\n[02:47.93]fortissimo yo\n[02:49.15]盗贼他偷走\n[02:50.43]修道士说no\n[02:51.72]梦醒来后我\n[02:52.97]一切都都没有\n[02:54.31]\n[03:00.18]我就站在布拉格黄昏的广场\n[03:06.15]在许愿池投下了希望\n[03:11.15]那群白鸽背对着夕阳\n[03:16.21]那画面太美我不敢看\n[03:20.77]布拉格的广场无人的走廊\n[03:26.31]我一个人跳着舞旋转\n[03:31.46]不远地方你远远吟唱\n[03:36.52]没有我你真的不习\n[03:41.26]\n[03:58.42]在布拉格黄昏的广场\n[04:03.28]在许愿池投下了希望\n[04:08.19]那群白鸽背对着夕阳\n[04:13.32]那画面太美我不敢看\n[04:17.79]布拉格的广场拥挤的剧场\n[04:23.44]安静小巷一家咖啡馆\n[04:28.48]我在结帐你在煮浓汤\n[04:33.41]这是故事最后的答案\n",
+      "[by:Ryan-H5]\n[00:18.14]So true\n[00:20.76]Funny how it seems\n[00:23.21]Always in time, but never in line for dreams\n[00:29.35]Head over heels, when toe to toe\n[00:34.21]This is the sound of my soul (This is the sound)\n[00:43.22]I bought a ticket to the world\n[00:48.15]But now I've come back again\n[00:53.20]Why do I find it hard to write the next line?\n[00:57.36]When I want the truth to be said\n[01:07.18]I know this much is true\n[01:17.10]I know this much is true\n[01:30.09]With a thrill in my head and a pill on my tongue\n[01:35.59]Dissolve the nerves that have just begun\n[01:40.39]Listening to Marvin all night long\n[01:45.35]This is the sound of my soul (This is the sound)\n[01:54.54]Always slipping from my hands\n[01:59.45]Sand's a time of it's own\n[02:04.26]Take your seaside arms and write the next line\n[02:08.55]Oh, I want the truth to be known\n[02:18.16]I know this much is true\n[02:28.06]I know this much is true\n[02:53.06]I bought a ticket to the world\n[02:58.02]But now I've come back again\n[03:03.12]Why do I find it hard to write the next line?\n[03:07.15]When I want the truth to be said\n[03:17.00]I know this much is true\n[03:26.75]I know this much is\n[03:31.20]True\n",
     theme: "rgb(211, 99, 35)"
   },
   {
     src:
-      "http://m8.music.126.net/20200406214017/6babb61b82e478a14e10304ca31c395d/ymusic/9253/1b9e/bd30/396b66f65aebe6c29679db77698067ce.mp3",
-    title: "骑士精神",
-    artist: "蔡依林,周杰伦",
-    pic:
-      "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-    lrc:
-      "[by:立酱]\n[00:00.000] 作曲 : 周杰伦\n[00:00.010] 作词 : 蔡依林\n[00:00.32]编曲 : 钟兴民\n[04:00.34]合声：蔡依林/周杰伦\n[04:00.45]录音师：杨瑞代\n[04:00.56]录音室：J&A Studio\n[04:00.67]混音师：杨大纬\n[04:00.78]混音室：丽风录音室\n[00:25.17]当我看见左肩破损的战衣\n[00:28.84]盔甲后你的表情带着笑意\n[00:30.86]想要对我说\n[00:32.24]外来的袭击即将离公主远去\n[00:35.07]那些令人刺耳的声音\n[00:36.25]我不听我不听\n[00:37.90]偏偏我又容易受影响容易伤心\n[00:40.13]没有用 微笑的表面不停骗自己\n[00:42.90]他们的语气\n[00:43.59]好笑的攻击\n[00:43.92]自卑的心理\n[00:44.78]四年来\n[00:45.44]带着各种面具想让你我孤立\n[00:48.62]莫名其妙那些话语\n[00:49.83]莫名其妙那些话语\n[00:51.03]如同沙子掉进眼里\n[00:52.41]不用哭泣\n[00:53.78]莫名其妙那些话语\n[00:55.16]莫名其妙那些话语\n[00:56.29]不如下档电影\n[00:57.31]值得注意\n[00:58.91]我 不要王子\n[01:00.10]苦苦守候的故事\n[01:01.82]梦幻不实\n[01:02.53]我不希望 你是王子\n[01:04.42]因为瑰丽童话结局\n[01:05.84]为战而死\n[01:07.06]故事开端结局会因你而真实\n[01:20.05]像骑士的忠贞\n[01:21.24]不畏惧邪恶的眼神\n[01:22.97]这过程\n[01:24.01]一直放在我心底\n[01:25.44]就像挡在你胸前的盔甲\n[01:28.36]保护着我\n[01:29.65]让我心疼\n[01:31.05]骑士们发挥出你们的精神\n[01:33.65]就这样\n[01:34.67]强悍的骑士撑到最后\n[01:36.46]骄傲的公主要回家\n[01:38.91]整装再出发\n[01:41.33]像骑士的忠贞\n[01:42.55]不畏惧邪恶的眼神\n[01:44.32]这过程\n[01:45.24]一直放在我心底\n[01:46.69]就像挡在你胸前的盔甲\n[01:49.56]保护着我\n[01:50.83]让我心疼\n[02:17.42]当我看见左肩破损的战衣\n[02:19.23]盔甲后你的表情带着笑意\n[02:21.25]想要对我说\n[02:22.70]外来的袭击即将离公主远去\n[02:25.13]那些令人刺耳的声音\n[02:26.85]我不听我不听\n[02:28.08]偏偏我又容易受影响容易伤心\n[02:30.51]没有用 微笑的表面不停骗自己\n[02:33.23]他们的语气\n[02:33.92]好笑的攻击\n[02:34.38]自卑的心理\n[02:35.22]四年来\n[02:35.76]带着各种面具想让你我孤立\n[02:39.03]莫名其妙那些话语\n[02:40.33]莫名其妙那些话语\n[02:41.48]如同沙子掉进眼里\n[02:42.88]不用哭泣\n[02:44.30]莫名其妙那些话语\n[02:45.42]莫名其妙那些话语\n[02:46.76]不如下档电影\n[02:47.85]值得注意\n[02:49.33]我 不要王子\n[02:50.60]苦苦守候的故事\n[02:52.32]梦幻不实\n[02:53.04]我不希望 你是王子\n[02:54.99]因为瑰丽童话结局\n[02:56.14]为战而死\n[02:57.63]故事开端结局会因你而真实\n[03:10.48]像骑士的忠贞\n[03:11.72]不畏惧邪恶的眼神\n[03:13.42]这过程\n[03:14.42]一直放在我心底\n[03:15.86]就像挡在你胸前的盔甲\n[03:18.72]保护着我\n[03:20.00]让我心疼\n[03:21.50]骑士们发挥出你们的精神\n[03:24.04]就这样\n[03:25.00]强悍的骑士撑到最后\n[03:26.80]骄傲的公主要回家\n[03:29.32]整装再出发\n[03:31.43]当我看见左肩破损的战衣\n[03:33.60]盔甲后你的表情带着笑意\n[03:35.82]想要对我说\n[03:37.06]外来的袭击即将离公主远去\n[03:39.72]那些令人刺耳的声音\n[03:41.56]我不听我不听\n[03:42.71]偏偏我又容易受影响容易伤心\n[03:45.00]没有用\n[03:45.73]微笑的表面不停骗自己\n[03:47.70]他们的语气\n[03:48.58]好笑的攻击\n[03:49.27]自卑的心理\n[03:49.75]四年来\n[03:50.62]带着各种面具想让你我孤立\n",
-    theme: "rgb(211, 99, 35)"
-  },
-  {
-    src:
-      "http://m7.music.126.net/20200406214017/70e941c453c3e5e30ffa263f1cf3255d/ymusic/bc2e/113e/5c74/7bdbe81e15bebf328072e5ab7c358be7.mp3",
-    title: "刀马旦",
-    artist: "李玟,周杰伦",
-    pic:
-      "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-    lrc:
-      "[00:00.000] 作曲 : 周杰伦\n[00:01.000] 作词 : 方文山\n[00:05.680]编曲：林迈可\n[00:26.09]女：明明早上人还在香港\n[00:29.27]还在九龙茶馆喝褒汤\n[00:32.41]怎么场景一下跳西安\n[00:35.61]我在护城河的堤岸\n[00:38.85]站在古老神秘的城墙\n[00:42.06]月光摇又晃\n[00:45.08]我用英语跟小贩交谈\n[00:48.40]突然画面一下就全暗\n[00:51.40]男：我\n[00:51.95]女：还在想\n[00:52.54]到底身在何方\n[00:54.52]男：我\n[00:55.02]女：变模样\n[00:55.81]是个华裔姑娘\n[00:57.79]男：我\n[00:58.27]女：开始想\n[00:58.91]认真细心装扮\n[01:01.00]男：我\n[01:01.46]女：回台上\n[01:02.13]终于轮我上场\n[01:04.19]合：耍花枪\n[01:05.33]一个后空翻\n[01:06.92]腰身跟着转\n[01:08.50]马步扎的稳当\n[01:10.59]耍花枪\n[01:11.70]比谁都漂亮\n[01:13.29]接着唱一段\n[01:14.92]虞姬和霸王\n[01:17.00]耍花枪\n[01:18.11]舞台的戏班\n[01:19.78]二胡拉的响\n[01:21.31]观众用力鼓掌\n[01:23.31]耍花枪\n[01:24.50]比谁都漂亮\n[01:26.09]刀马旦身段\n[01:27.75]演出风靡全场\n[01:52.50]男：一口粮一张床一面墙一扇窗\n[01:54.35]我洒下一地月光一次种下一亩高粱\n[01:56.90]一个人在北大荒\n[01:58.64]一碗热汤\n[02:00.21]温暖了我一个晚上\n[02:01.92]一匹苍狼一身风霜\n[02:03.34]走过丝路回家乡\n[02:05.29]女：站在古老神秘的城墙\n[02:08.43]月光摇又晃\n[02:11.55]我用英语跟小贩交谈\n[02:14.77]突然画面一下就全暗\n[02:18.05]男：我\n[02:18.46]女：还在想\n[02:18.98]到底身在何方\n[02:20.88]男：我\n[02:21.34]女：变模样\n[02:22.08]是个华裔姑娘\n[02:24.04]男：我\n[02:24.52]女：开始想\n[02:25.31]认真细心装扮\n[02:27.31]男：我\n[02:27.67]女：回台上\n[02:28.43]终于轮我上场\n[02:30.49]耍花枪\n[02:31.70]一个后空翻\n[02:33.30]腰身跟着转\n[02:34.90]马步扎的稳当\n[02:36.95]耍花枪\n[02:38.13]比谁都漂亮\n[02:39.71]接着唱一段\n[02:41.35]虞姬和霸王\n[02:43.31]合：耍花枪\n[02:44.49]舞台的戏班\n[02:46.09]二胡拉的响\n[02:47.73]观众用力鼓掌\n[02:49.73]耍花枪\n[02:50.93]比谁都漂亮\n[02:52.50]刀马旦身段\n[02:54.11]演出风靡全场\n[02:56.45]女：耍花枪\n[02:57.24]一个后空翻\n[02:58.84]腰身跟着转\n[03:00.45]马步扎的稳当\n[03:02.53]耍花枪\n[03:03.68]比谁都漂亮\n[03:05.27]接着唱一段\n[03:06.88]虞姬和霸王\n",
-    theme: "rgb(211, 99, 35)"
-  },
-  {
-    src:
-      "http://m7.music.126.net/20200406214017/59dbff737171d6c95864e5312a4eb0ea/ymusic/ee5d/d1b3/e276/1cf9e448d1c3c8657acdf646f5756029.mp3",
-    title: "祝我生日快乐 (Live)",
-    artist: "温岚,周杰伦",
+      "http://m8.music.126.net/20200406220500/041e83d9508827b47c0081953048b3b0/ymusic/040e/535d/555f/3d522032d6d727da9c0fb5e70c1c4ca7.mp3",
+    title: "True",
+    artist: "Brenis",
     pic:
       "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-    lrc:
-      "[by:存在感o0]\n[ti:祝我生日快乐 (Live)]\n[ar:温岚]\n[al:]\n[by:九九Lrc歌词网～www.99Lrc.net]\n[00:20.11]我知道伤心不能改变什么\n[00:24.93]那么 让我诚实一点\n[00:31.07]诚实 难免有无法控制的宣泄\n[00:37.89]只要关上了门不必理谁\n[00:45.35]一个人坐在空的包厢里面\n[00:50.05]手机让它休息一夜\n[00:56.57]难的像切歌切掉回忆的画面\n[01:03.22]眼泪不能流过十二点\n[01:11.99]生日快乐\n[01:15.52]我对自己说\n[01:18.57]蜡烛点了\n[01:21.38]寂寞亮了\n[01:24.33]生日快乐\n[01:27.39]泪也融了\n[01:30.44]我要谢谢你给的你拿走的一切\n[01:37.40]还爱你 带一点恨\n[01:43.16]还要时间\n[01:46.09]才能平衡\n[01:49.10]美梦伤痕\n[01:52.12]幻灭重生\n[01:55.30]祝我生日生日快乐\n[02:10.20]一个人坐在空的包厢里面\n[02:15.09]手机让它休息一夜\n[02:21.77]难 像切歌切掉回忆的画面\n[02:28.57]眼泪不能流过十二点\n[02:33.77]生日快乐 我对自己说\n[02:40.32]蜡烛点了\n[02:43.50]寂寞亮了\n[02:46.66]生日快乐\n[02:50.05]泪也融了\n[02:53.30]我要谢谢你给的你拿走的一切\n[03:00.19]还爱你 带一点恨\n[03:06.19]还要时间\n[03:09.46]才能平衡\n[03:12.73]热恋伤痕\n[03:15.96]幻灭重生\n[03:19.21]祝我生日快乐\n[03:32.94]还爱你 带一点恨\n[03:39.31]还要时间\n[03:42.61]才能平衡\n[03:46.04]热恋伤痕\n[03:49.35]幻灭重生\n[03:52.59]祝我生日\n[03:54.29]祝我生日快乐\n",
     theme: "rgb(211, 99, 35)"
   },
   {
     src:
-      "http://m7.music.126.net/20200406214018/b9be75f4f817df0e4e06811be8514a33/ymusic/6482/70ba/64dc/c26b4f17f48a2decea56cc8f3153487d.mp3",
-    title: "屋顶",
-    artist: "周杰伦,温岚",
+      "http://m801.music.126.net/20200406220501/d5c771fc94ef6a642033d79b068dc614/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/2046913923/4a4a/e07b/6389/a8ab01211d99af9761aa5aa788f4c829.mp3",
+    title: "True",
+    artist: "Lua Burgals",
     pic:
       "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-    lrc:
-      "[00:00.000] 作曲 : 周杰伦\n[00:01.000] 作词 : 周杰伦\n[00:23.97]半夜睡不着觉把心情哼成歌\n[00:29.23]只好到屋顶找另一个梦境\n[00:39.99]睡梦中被敲醒我还是不确定\n[00:45.53]怎会有动人弦律在对面的屋顶\n[00:51.00]我悄悄关上门带着希望上去\n[00:56.43]原来是我梦里常出现的那个人\n[01:00.60]那个人不就是我梦里\n[01:03.67]那模糊的人\n[01:05.97]我们有同样的默契\n[01:11.56]用天线\n[01:12.86]用天线排成爱你的形状hoho\n[01:21.20]在屋顶唱着你的歌\n[01:23.95]在屋顶和我爱的人\n[01:26.56]让星星点缀成最浪漫的夜晚\n[01:32.55]拥抱这时刻这一分一秒全都停止\n[01:40.74]爱开始纠结\n[01:42.88]在屋顶唱着你的歌\n[01:45.67]在屋顶和我爱的人\n[01:48.40]将泛黄的的夜献给最孤独的月\n[01:54.44]拥抱这时刻这一分一秒全都停止\n[02:02.50]爱开始纠结\n[02:05.00]梦有你而美\n[02:42.79]半夜睡不着觉把心情哼成歌\n[02:48.41]只好到屋顶找另一个梦境\n[02:59.21]睡梦中被敲醒我还是不确定\n[03:04.73]怎会有动人弦律在对面的屋顶\n[03:10.21]我悄悄关上门带着希望上去\n[03:15.65]原来是我梦里常出现的那个人\n[03:19.79]那个人不就是我梦里\n[03:23.15]那模糊的人\n[03:25.90]我们有同样的默契\n[03:30.59]用天线\n[03:31.99]用天线排成爱你的形状hoho\n[03:40.50]在屋顶唱着你的歌\n[03:42.97]在屋顶和我爱的人\n[03:45.67]让星星点缀成最浪漫的夜晚\n[03:51.70]拥抱这时刻这一分一秒全都停止\n[03:59.90]爱开始纠结\n[04:01.88]在屋顶唱着你的歌\n[04:04.77]在屋顶和我爱的人\n[04:07.51]将泛黄的的夜献给最孤独的月\n[04:13.56]拥抱这时刻这一分一秒全都停止\n[04:21.83]爱开始纠结\n[04:24.15]梦有你而美\n[04:37.50]让我爱你是谁\n[04:40.20]让你爱我是谁\n[04:42.43]怎会有动人弦律环绕在我俩的身边\n[04:48.37]让我爱你是谁\n[04:51.15]让你爱我是谁\n[04:53.91]原来是这屋顶有美丽的邂逅\n[05:03.79]在屋顶唱着你的歌\n[05:07.10]在屋顶和我爱的人\n",
     theme: "rgb(211, 99, 35)"
   },
   {
     src:
-      "http://m8.music.126.net/20200406214018/b1b62c0b18138ae5c15e215c8fb03d52/ymusic/1766/43ab/d060/a517513f707a546a1cb14d708944b8ca.mp3",
-    title: "刀马旦",
-    artist: "周杰伦,李玟",
+      "http://m8.music.126.net/20200406220501/9942798ba58452c394880c253273977c/ymusic/e542/c734/2c2e/d85251ba955aaf65cbae9857f2d437f8.mp3",
+    title: "TRUE",
+    artist: "王若琳",
     pic:
-      "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+      "https://p2.music.126.net/NulXxyymkbEfSe6iLxlH_g==/1684451813773103.jpg",
     lrc:
-      "[00:29.700]明明早上人还在香港 还在九龙茶馆喝煲汤\n[00:35.220]怎么场景一下跳西安 我在护城河的堤岸\n[00:40.970]\n[00:41.710]站在古老神秘的城墙 月光摇又晃\n[00:48.080]我用英语跟小贩交谈 突然画面一下就全暗\n[00:53.880]\n[00:54.560]我 还在想 到底身在何方\n[00:57.630]我 变模样 是个华裔姑娘\n[01:00.930]我 开始想 认真细心装扮\n[01:04.200]我 回台上 终於轮我上场\n[01:08.090]耍花枪 一个后空翻 腰身跟着转 马步扎的稳当\n[01:13.340]耍花枪 比谁都漂亮 接着唱一段 虞姬和霸王\n[01:19.840]耍花枪 舞台的戏班 二胡拉的响 观众用力鼓掌\n[01:26.400]耍花枪 比谁都漂亮 刀马旦身段 演出风靡全场\n[01:32.500]\n[01:34.870]Rap 一口粮一张床一面墙一扇窗\n[01:57.210]我洒下一地月光一次种下一亩高粱\n[01:59.710]一个人在北大荒 一碗热汤 啊 温暖了我一个晚上\n[02:04.770]一匹苍狼一身风霜 走过丝路回家乡\n[02:08.070]站在古老神秘的城墙 月光摇又晃\n[02:14.500]我用英语跟小贩交谈 突然画面一下就全暗\n[02:21.000]我 还在想 到底身在何方\n[02:24.740]我 变模样 是个华裔姑娘\n[02:27.290]我 开始想 认真细心装扮\n[02:29.730]\n[02:30.350]我 回台上 终於轮我上场\n[02:33.540]耍花枪 一个后空翻 腰身跟着转 马步扎的稳当\n[02:39.780]耍花枪 比谁都漂亮 接着唱一段 虞姬和霸王\n[02:46.400]耍花枪 舞台的戏班 二胡拉的响 观众用力鼓掌\n[02:52.560]耍花枪 比谁都漂亮 刀马旦身段 演出风靡全场\n[02:58.420]\n[02:59.300]耍花枪 一个后空翻 腰身跟着转 马步扎的稳当\n[03:05.380]耍花枪 比谁都漂亮 接着唱一段 虞姬和霸王\n[03:11.370]\n",
+      "[00:00.000] 作曲 : Gary Kemp\n[00:00.000] 作词 : Gary Kemp\n[00:00.00]\n[00:01.00]\n[00:47.08]So true funny how it seems\n[00:51.92]always in time but never in line for dreams\n[00:59.10]Head over heels when toe to toe\n[01:04.14]This is the sound of my soul\n[01:09.19]this is the sound\n[01:13.70]\n[01:14.50]I bought a ticket to the world\n[01:20.10]but now I've come back again\n[01:24.95]why do I find it hard to write the next line\n[01:29.90]Oh I want the truth to be said\n[01:34.20]\n[01:35.57]Huh huh huh huh huh huh\n[01:39.76]I know this much is true\n[01:46.43]Huh huh huh huh huh huh\n[01:50.74]I know this much is true\n[01:59.40]\n[02:05.41]With a thrill in my head and a pill on my tongue\n[02:12.05]dissolve the nerves that I've just begun\n[02:17.32]Listening to Marvin（all night long）\n[02:22.73]This is the sound of my soul\n[02:27.75]this is the sound\n[02:32.17]\n[02:33.10]Always slipping from my hands\n[02:38.33]Sets a time of its own\n[02:43.70]Take your seaside arms and write the next line\n[02:48.34]Oh I want the truth to be known\n[02:52.93]\n[02:54.27]Huh huh huh huh huh huh\n[02:58.44]I know this much is true\n[03:05.16]Huh huh huh huh huh huh\n[03:09.10]I know this much is true\n[03:18.47]\n[04:06.00]\n[04:07.26]I bought a ticket to the world\n[04:12.70]but now I've come back again\n[04:18.15]Why do I find it hard to write the next line\n[04:23.00]Oh I want the truth to be said\n[04:28.06]\n[04:28.93]Huh huh huh huh huh huh\n[04:33.09]I know this much is true\n[04:39.94]Huh huh huh huh huh huh\n[04:44.40]I know this much is true\n[04:53.12]\n[04:54.38]uh this much is true\n[04:59.06]this much is true\n[05:04.16]\n[05:09.70]Huh huh huh huh huh huh\n[05:16.75]uh this much is true\n[05:21.90]I know this much is true\n[05:29.34]\n",
     theme: "rgb(211, 99, 35)"
   },
   {
     src:
-      "http://m8.music.126.net/20200406214018/7c2de2507cd52c54f5b508c03e78fd33/ymusic/7a95/0352/10ee/914385536553cf92869f850d7c00a344.mp3",
-    title: "布拉格广场",
-    artist: "蔡依林,周杰伦",
+      "http://m7.music.126.net/20200406220502/bb55ac3886e66edff291b0ea0dd91cde/ymusic/3b46/1658/5aad/8340a3462c1a655214baa599c0ad1fb9.mp3",
+    title: "True",
+    artist: "George Strait",
     pic:
-      "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+      "https://p2.music.126.net/NmR7YkBHiDdEnkDMB79i0w==/6623458046604139.jpg",
     lrc:
-      "[00:19.580]琴键上 透着光\n[00:20.800]彩绘的玻璃窗\n[00:22.220]装饰着歌德式教堂\n[00:23.560]谁谁谁弹\n[00:25.010]一段 一段 流浪 忧伤\n[00:26.800]我顺着琴声方向看见\n[00:28.090]蔷薇依附十八世纪的油画上\n[00:30.110]在旁\n[00:30.700]静静欣赏\n[00:31.320]在想\n[00:31.950]你的浪漫\n[00:32.620]在看\n[00:33.290]是否多久 都一样\n[00:35.050]a a fu shou\n[00:36.220]a a fu shou\n[00:37.410]yap so so sorry\n[00:38.620]so so so\n[00:39.670]Moderato\n[00:40.710]Andantino\n[00:41.920]Portmento\n[00:43.170]Fortissimo\n[00:44.390]盗贼他偷走\n[00:45.760]修道士说 No\n[00:46.860]梦醒来后我\n[00:48.220]一切都 都没有\n[00:50.070]\n[00:59.450]我就站在布拉格黄昏的广场\n[01:05.090]在许愿池 投下了希望\n[01:10.080]那群白鸽 背对着夕阳\n[01:15.110]那画面太美我不敢看\n[01:19.700]布拉格的广场无人的走廊\n[01:25.310]我一个人 跳着舞旋转\n[01:30.640]不远地方 你远远吟唱\n[01:35.970]没有我你真的不习惯\n[01:41.370]\n[02:25.500]透着光彩绘的玻璃窗\n[02:26.940]装饰着歌德式教堂\n[02:28.620]谁谁谁弹\n[02:29.990]一段 一段 流浪 忧伤\n[02:32.050]我顺着琴声方向看见\n[02:33.300]蔷薇依附十八世纪的油画上\n[02:35.440]在旁\n[02:36.100]静静欣赏\n[02:36.620]在想\n[02:37.260]你的浪漫\n[02:37.840]在看\n[02:38.440]是否多久 都一样\n[02:40.240]a a fu shou\n[02:41.430]a a fu shou\n[02:42.610]yap so so sorry\n[02:44.100]so so so\n[02:44.870]Moderato\n[02:45.900]Andantino\n[02:47.120]Portmento\n[02:48.380]Fortissimo\n[02:50.010]盗贼他偷走\n[02:51.190]修道士说 No\n[02:52.500]梦醒来后我\n[02:53.680]一切都 都没有\n[02:55.640]\n[03:01.560]我就站在布拉格黄昏的广场\n[03:07.120]在许愿池 投下了希望\n[03:12.190]那群白鸽 背对着夕阳\n[03:17.450]那画面太美我不敢看\n[03:22.300]布拉格的广场无人的走廊\n[03:27.890]我一个人 跳着舞旋转\n[03:32.880]不远地方 你远远吟唱\n[03:37.880]没有我你真的不习惯\n[03:42.530]\n[03:59.410]在布拉格黄昏的广场\n[04:05.010]在许愿池 投下了希望\n[04:10.050]那群白鸽 背对着夕阳\n[04:15.680]那画面太美我不敢看\n[04:20.170]布拉格的广场拥挤的剧场\n[04:25.830]安静小巷 一家咖啡馆\n[04:30.810]我在结帐 你在煮浓汤\n[04:35.920]这是故事最后的答案\n[04:41.250]\n",
+      "True in this modern world when two lovers get together\nChances of 'em making it to forever\nCouldn't be better than two in a million hearts\nGirl this ain't just another run of the mill emotion\nWhat I'm feeling is devotion\nMy love for you is true\nCHORUS:\nTrue like the sun comin' up each morning\nBright as a light in a baby's smile\nSure as a mountain river windin'\nRight as the rain fallin' from the sky\nGirl my love for you is true\nTrue, not another minute on this earth can be borrowed\nSo there's no way to know when I'll live my last tommorow\nBut everyday I get, I'll share with you\nThis feelin' just keeps gettin' stronger as time goes by\nIt's written on my face, you can see it in my eyes\nMy love for you is true\nREPEAT CHORUS TWICE\n",
     theme: "rgb(211, 99, 35)"
   },
   {
     src:
-      "http://m8.music.126.net/20200406214018/79faa4666e68d38f1209ee864773dfe8/ymusic/1f39/1ad3/e05f/b7570adf5073f9bb4dc38bd6afbfe0c1.mp3",
-    title: "海盗",
-    artist: "蔡依林,周杰伦",
+      "http://m8.music.126.net/20200406220502/8bdc00d5476f05940037853af2faf668/ymusic/a9ed/85e3/6da2/3f2b3e7af44072b83ec3ec38884d6e9f.mp3",
+    title: "True",
+    artist: "山岡晃",
     pic:
-      "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+      "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+    theme: "rgb(211, 99, 35)"
+  },
+  {
+    src:
+      "http://m7.music.126.net/20200406220502/e7c7dab19c837d00ee5510dff329095a/ymusic/545c/0553/065a/c622a19d5c2912b389c1102f74ec76ae.mp3",
+    title: "True",
+    artist: "Chyger,DaweOne",
+    pic:
+      "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+    theme: "rgb(211, 99, 35)"
+  },
+  {
+    src:
+      "http://m7.music.126.net/20200406220503/1f148d1697bde909d71e16ae7bdb76d9/ymusic/dabe/283e/a26e/3134b094ab65c76f263c54e36b539873.mp3",
+    title: "True",
+    artist: "Tom Tykwer,Johnny Klimek,Reinhold Heil",
+    pic:
+      "https://p1.music.126.net/UiCASOcJisuWL0GNN7D8WA==/6663040465042442.jpg",
     lrc:
-      "[by:imbigsb]\n[00:04.08]蔡依林 - 海盗\n[00:06.82]词:陈镇川 曲:周杰伦\n[00:08.50]\n[00:47.41]黄色烟硝还在飘\n[00:49.92]头顶风帆在鼓噪\n[00:52.48]一瞬间的风暴\n[00:57.70]湿透双脚 干不了\n[01:00.30]晒伤眼角 顾不了\n[01:02.93]对着狂风咆哮\n[01:08.21]头巾缠绕着骄傲\n[01:10.74]泪藏在黑色眼罩\n[01:13.30]长发在船头舞蹈\n[01:16.93]啦啦啦啦\n[01:18.34]尽头 在找到那些宝藏\n[01:20.98]以后 当满足了冒险的\n[01:23.16]念头 幸福是否在岸上\n[01:26.11]等候 故事对它细说从头\n[01:29.14]啦啦啦啦\n[01:31.00]冷漠背后 躲着温柔\n[01:32.91]我还记得 谁在嘶吼\n[01:35.50]看你低着头 我站在船头\n[01:39.12]啦啦啦啦\n[01:40.79]黑色的风 吹熄烛火\n[01:43.26]暴风雨外 那片天空\n[01:45.92]幸福在招手\n[01:56.58]\n[02:31.82]冰上一角 在窃笑\n[02:34.23]险恶暗潮 在围剿\n[02:36.69]没目标的目标\n[02:42.09]鼻间酒意 还没消\n[02:44.62]受潮菸草 怪味道\n[02:47.16]写封信 寄不到\n[02:50.39]耶咿耶 耶咿耶 喔.....\n[02:52.60]扰人清梦的号角\n[02:54.97]船舵疯狂的奔跑\n[02:57.66]永远下不了的 锚\n[03:01.24]啦啦啦啦\n[03:02.63]终点就在前头 前头尽头\n[03:04.83]等找到那些宝藏以后 宝藏以后\n[03:07.45]当满足了冒险的 念头\n[03:09.08]幸福是否在岸上 等候\n[03:11.56]它细说从头\n[03:12.78]尽头 在找到那些宝藏\n[03:15.69]以后 当满足了冒险的\n[03:17.95]念头 幸福是否在岸上\n[03:20.64]等候\n[03:24.07]啦啦啦啦\n[03:25.60]冷漠背后 躲着温柔\n[03:27.64]我还记得 谁在嘶吼\n[03:30.23]看你低着头\n[03:32.81]我站在船头\n[03:34.01]啦啦啦啦\n[03:35.59]黑色的风 吹熄烛火\n[03:38.11]暴风雨外 那片天空\n[03:40.75]幸福在招手\n[03:44.63]\n[03:45.37]等候 好不了的伤口\n[03:48.69]在美丽的港口\n[03:51.19]寂寞的出口 发烫的胸口\n[03:53.83]等候 好不了的伤口\n[03:59.16]在美丽的港口\n[04:01.67]寂寞的出口\n[04:06.96]\n",
+      "[00:38.0]Sotruefunnyhowitseems\n[00:42.0]alwaysintime,butneverinlinefordreams\n[00:48.0]Headoverheelswhentoetotoe\n[00:53.0]Thisisthesoundofmysoul,\n[00:58.0]thisisthesound\n[01:02.0]Iboughtatickettotheworld,\n[01:07.0]butnowI'vecomebackagain\n[01:12.0]WhydoIfindithardtowritethenextline\n[01:16.0]OhIwantthetruthtobesaid\n[01:22.0]Huhhuhhuhhu-uhhuh\n[01:25.0]Iknowthismuchistrue\n[01:31.0]Huhhuhhuhhu-uhhuh\n[01:35.0]Iknowthismuchistrue\n[01:43.0]\n[01:49.0]Withathrillinmyheadandapillonmytongue\n[01:54.0]dissolvethenervesthathavejustbegun\n[01:59.0]ListeningtoMarvin（allnightlong）\n[02:04.0]Thisisthesoundofmysoul,\n[02:09.0]thisisthesound\n[02:13.0]Alwaysslippingfrommyhands,\n[02:18.0]sand'satimeofitsown\n[02:23.0]Takeyourseasidearmsandwritethenextline\n[02:27.0]OhIwantthetruthtobeknown\n[02:32.0]Huhhuhhuhhu-uhhuh\n[02:36.0]Iknowthismuchistrue\n[02:42.0]Huhhuhhuhhu-uhhuh\n[02:46.0]Iknowthismuchistrue\n[02:54.0]\n[03:38.0]Iboughtatickettotheworld,\n[03:43.0]butnowI'vecomebackagain\n[03:48.0]WhydoIfindithardtowritethenextline\n[03:52.0]OhIwantthetruthtobesaid\n[03:57.0]\n[04:00.0]Huhhuhhuhhu-uhhuh\n[04:04.0]Iknowthismuchistrue\n[04:10.0]Huhhuhhuhhu-uhhuh\n[04:14.0]Iknowthismuchistrue\n[04:28.0]Thismuchistrue\n[04:37.0]Thismuchistrue\n[04:39.0]Thismuchistrue\n[04:44.0]Iknow,Iknow,Iknowthismuchistrue\n",
     theme: "rgb(211, 99, 35)"
   }
 ];

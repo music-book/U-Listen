@@ -10,3 +10,14 @@ export async function getLyric(id) {
   });
   return results;
 }
+
+// 获取歌曲详情
+export async function getSongDetail(ids) {
+  let results = request({
+    url: "/song/detail",
+    params: {
+      ids: ids
+    }
+  });
+  return results;
+}
