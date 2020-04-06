@@ -1,6 +1,6 @@
 <template>
   <div class="audio-wrap">
-    <AudioPlayer :music="song" :showLrc="true" :float="true"></AudioPlayer>
+    <AudioPlayer :music="song" :showLrc="true"></AudioPlayer>
   </div>
 </template>
 
