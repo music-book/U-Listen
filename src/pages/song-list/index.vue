@@ -22,7 +22,56 @@
           @click="serachMusic"
         ></el-button>
       </el-input>
-      <el-button round type="mini" @click="login">登录</el-button>
+      <el-button
+        v-if="loginStatus"
+        class="login-btn"
+        round
+        type="mini"
+        @click="dialogVisible = true"
+        >登录</el-button
+      >
+      <div v-else class="logined">
+        <el-avatar :src="avatar" alt="user"
+          ><span>欢迎登录{{ name }}</span></el-avatar
+        >
+      </div>
+      <el-dialog title="登录" :visible.sync="dialogVisible" width="30%">
+        <div>
+          <el-form
+            :model="ruleForm"
+            status-icon
+            :rules="rules"
+            ref="ruleForm"
+            label-width="100px"
+            class="demo-ruleForm"
+          >
+            <el-form-item label="手机号" prop="phone">
+              <el-input
+                type="text"
+                v-model="ruleForm.phone"
+                autocomplete="off"
+              ></el-input>
+            </el-form-item>
+            <el-form-item label="密码" prop="password">
+              <el-input
+                type="password"
+                v-model="ruleForm.password"
+                autocomplete="off"
+              ></el-input>
+            </el-form-item>
+            <el-form-item>
+              <el-button type="primary" @click="login">提交</el-button>
+              <el-button>重置</el-button>
+            </el-form-item>
+          </el-form>
+        </div>
+        <span slot="footer" class="dialog-footer">
+          <el-button @click="dialogVisible = false">取 消</el-button>
+          <el-button type="primary" @click="dialogVisible = false"
+            >确 定</el-button
+          >
+        </span>
+      </el-dialog>
     </div>
     <div class="song-list-content" v-loading="loading">
       <SingleSong
@@ -30,8 +79,9 @@
         :key="song.id"
         :song="song"
       ></SingleSong>
-    </div></div
-></template>
+    </div>
+  </div>
+</template>
 
 <script>
 import SingleSong from "@/components/MusicList";
@@ -50,13 +100,38 @@ export default {
       search: "周杰伦",
       type: 1,
       typeList: typeList,
-      loading: false
+      loading: false,
+      dialogVisible: false,
+      ruleForm: {
+        phone: "",
+        password: ""
+      },
+      rules: {
+        phone: [{ validator: null, trigger: "blur" }],
+        password: [{ validator: null, trigger: "blur" }]
+      },
+      loginStatus: true,
+      avatar: "",
+      name: ""
     };
   },
 
   methods: {
     login() {
-      loginByPhone(13824397591, "").then(() => {});
+      const { phone, password } = this.ruleForm;
+      loginByPhone(phone, password).then(loginInfo => {
+        // console.log(loginInfo);
+        let data = loginInfo.data;
+        let code = data.code;
+
+        if (code !== 200) return this.$message.error("用户名或密码错误");
+
+        this.$message.success("登录成功");
+        this.dialogVisible = false;
+        this.loginStatus = false;
+        this.avatar = data.profile.avatarUrl;
+        this.name = data.account.userName;
+      });
     },
     convertSongs(songs, urlArray) {
       let songsInfo = [];
@@ -121,7 +196,18 @@ export default {
     font-size: 1.5rem;
     background-color: rgb(110, 172, 207);
   }
+  .login-btn {
+    float: right;
+    margin-left: 20px;
+  }
 
+  .logined {
+    display: inline-block;
+    padding: 0 20px;
+    min-width: 200px;
+    height: 50px;
+    line-height: 50px;
+  }
   .search-wrap {
     display: flex;
     flex-direction: row;
