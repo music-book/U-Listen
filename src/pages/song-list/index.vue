@@ -22,8 +22,9 @@
           @click="serachMusic"
         ></el-button>
       </el-input>
+      <el-button round type="mini" @click="login">登录</el-button>
     </div>
-    <div class="song-list-content">
+    <div class="song-list-content" v-loading="loading">
       <SingleSong
         v-for="song in songList"
         :key="song.id"
@@ -35,6 +36,7 @@
 <script>
 import SingleSong from "@/components/MusicList";
 import { search, getSongURL } from "@/api/search";
+import { loginByPhone } from "@/api/login";
 import { getLyric } from "@/api/song";
 import typeList from "@/utils/typeOptions";
 import defaultList from "./default";
@@ -47,11 +49,17 @@ export default {
       songList: defaultList || [],
       search: "周杰伦",
       type: 1,
-      typeList: typeList
+      typeList: typeList,
+      loading: false
     };
   },
 
   methods: {
+    login() {
+      loginByPhone(13824397591, "qj123456").then(res => {
+        console.log(res);
+      });
+    },
     convertSongs(songs, urlArray) {
       let songsInfo = [];
       songs.forEach(item => {
@@ -64,7 +72,7 @@ export default {
               artist: artists,
               pic: item.album.artist.img1v1Url,
               lrc: el.lyric,
-              theme: ""
+              theme: "rgb(211, 99, 35)"
             };
             songsInfo.push(obj);
           }
@@ -74,9 +82,9 @@ export default {
     },
 
     async serachMusic(value) {
+      this.loading = true;
       let results = await search(value, 10, this.type);
       let songs = results.data.result.songs;
-      console.log(songs);
       let list = [];
       for (let i = 0, len = songs.length; i < len; i++) {
         let singleSong = await getSongURL(songs[i].id);
@@ -87,6 +95,8 @@ export default {
       }
 
       this.songList = this.convertSongs(songs, list);
+      console.log(list);
+      this.loading = false;
       console.log(this.convertSongs(songs, list));
     }
   }

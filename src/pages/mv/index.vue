@@ -53,6 +53,8 @@ export default {
     display: inline-block;
     width: 100%;
     text-align: center;
+    font-size: 2em;
+    color: rgb(211, 99, 35);
   }
   .mv-list {
     display: inline-block;
