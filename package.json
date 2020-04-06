@@ -15,6 +15,7 @@
     "less-loader": "^5.0.0",
     "vudio": "^2.1.1",
     "vue": "^2.6.11",
+    "vue-aplayer": "^1.6.1",
     "vue-router": "^3.1.6"
   },
   "devDependencies": {

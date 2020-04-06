@@ -8062,6 +8062,11 @@ vudio@^2.1.1:
   resolved "https://registry.yarnpkg.com/vudio/-/vudio-2.1.1.tgz#af256c4e1c8ae8bdbbba0e718f8106a30a44e96e"
   integrity sha512-VkFQcFt/b/kpF5Eg5Sq+oXUo1Zp5aRFF4BSmIrOzau5o+5WMWwX9ae/EGJZstCyZFiCTU5iw1Y+u2BCGW6Y6Jw==
 
+vue-aplayer@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/vue-aplayer/-/vue-aplayer-1.6.1.tgz#17fd419b091e09425bc737fa9e84f55565160df6"
+  integrity sha512-c+ZAwZ63bVDsKkcHeKLAonIL2gY4nrVRdKypoPRXSkh+8B1cVhFT2tx8HSTNT6eX6WZyDtaYrEJfcgetrfvcdQ==
+
 vue-eslint-parser@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npm.taobao.org/vue-eslint-parser/download/vue-eslint-parser-7.0.0.tgz?cache=0&sync_timestamp=1573306368916&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-eslint-parser%2Fdownload%2Fvue-eslint-parser-7.0.0.tgz#a4ed2669f87179dedd06afdd8736acbb3a3864d6"

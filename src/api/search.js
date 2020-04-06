@@ -10,7 +10,6 @@ export async function search(words, limit = 10, type = 1) {
       type: type
     }
   });
-
   return results;
 }
 

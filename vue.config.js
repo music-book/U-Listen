@@ -5,7 +5,7 @@ function resolve(dir) {
 }
 module.exports = {
   publicPath: ".",
-  lintOnSave: true,
+  lintOnSave: false,
   devServer: {
     port: 8088
   },

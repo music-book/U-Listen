@@ -25,9 +25,9 @@
     </div>
     <div class="song-list-content">
       <SingleSong
-        v-for="item in songList"
-        :key="item.id"
-        :song="item"
+        v-for="song in songList"
+        :key="song.id"
+        :song="song"
       ></SingleSong>
     </div></div
 ></template>
@@ -35,32 +35,59 @@
 <script>
 import SingleSong from "@/components/MusicList";
 import { search, getSongURL } from "@/api/search";
+import { getLyric } from "@/api/song";
 import typeList from "@/utils/typeOptions";
+import defaultList from "./default";
 export default {
   components: {
     SingleSong
   },
   data() {
     return {
-      songList: [],
-      search: "",
+      songList: defaultList || [],
+      search: "周杰伦",
       type: 1,
       typeList: typeList
     };
   },
+
   methods: {
-    methods: {
-      async serachMusic(value) {
-        let results = await search(value, 10, this.type);
-        let songs = results.data.result.songs;
-        let list = [];
-        for (let i = 0, len = songs.length; i < len; i++) {
-          let singleSong = await getSongURL(songs[i].id);
-          let songInfo = singleSong.data.data[0];
-          list.push(songInfo);
-        }
-        this.songList = list;
+    convertSongs(songs, urlArray) {
+      let songsInfo = [];
+      songs.forEach(item => {
+        let artists = item.artists.map(i => i.name).join();
+        urlArray.forEach(el => {
+          if (el.id === item.id) {
+            let obj = {
+              src: el.url,
+              title: item.name,
+              artist: artists,
+              pic: item.album.artist.img1v1Url,
+              lrc: el.lyric,
+              theme: ""
+            };
+            songsInfo.push(obj);
+          }
+        });
+      });
+      return songsInfo;
+    },
+
+    async serachMusic(value) {
+      let results = await search(value, 10, this.type);
+      let songs = results.data.result.songs;
+      console.log(songs);
+      let list = [];
+      for (let i = 0, len = songs.length; i < len; i++) {
+        let singleSong = await getSongURL(songs[i].id);
+        let songLyric = await getLyric(songs[i].id);
+        let songInfo = singleSong.data.data[0];
+        songInfo.lyric = songLyric.data.lrc.lyric;
+        list.push(songInfo);
       }
+
+      this.songList = this.convertSongs(songs, list);
+      console.log(this.convertSongs(songs, list));
     }
   }
 };
@@ -69,6 +96,7 @@ export default {
 <style lang="less" scoped>
 .song-wrap {
   width: 100%;
+  min-height: 500px;
   .main-title {
     font-style: italic;
     display: flex;
@@ -83,13 +111,16 @@ export default {
   .search-wrap {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     width: 30%;
     padding: 20px;
   }
 
   .song-list-content {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 30px;
   }
 }
 </style>
