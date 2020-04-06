@@ -30,28 +30,22 @@
         :song="item"
       ></SingleSong>
     </div>
-
-    <div class="title">TOP 10 MV</div>
-    <div class="mv-list" v-for="item in mvList" :key="item.id">
-      <VideoComponent :videoInfo="item"></VideoComponent>
-    </div>
+    <div class="mv-content"><MVContent></MVContent></div>
   </div>
 </template>
 
 <script>
-import { getPopularList, getMvURL } from "../api/mv";
 import { search, getSongURL } from "../api/search";
 import typeList from "../utils/typeOptions";
-import VideoComponent from "../components/VideoComponent";
+import MVContent from "./mv/index";
 import SingleSong from "../components/MusicList";
 export default {
   components: {
-    VideoComponent,
-    SingleSong
+    SingleSong,
+    MVContent
   },
   data() {
     return {
-      mvList: [],
       songList: [],
       search: "",
       type: 1,
@@ -69,28 +63,7 @@ export default {
         list.push(songInfo);
       }
       this.songList = list;
-    },
-    getMv() {
-      getPopularList().then(res => {
-        let mvRestulsList = res.data.data;
-        let ids = mvRestulsList.map(item => item.id);
-        let list = [];
-
-        ids.forEach(id => {
-          getMvURL(id).then(mvDetail => {
-            let result = mvDetail.data.data;
-            let url = result.url;
-            let id = result.id;
-            list.push({ url: url, id: id });
-          });
-        });
-
-        this.mvList = list;
-      });
     }
-  },
-  mounted() {
-    this.getMv();
   }
 };
 </script>
@@ -112,11 +85,6 @@ export default {
     font-size: 1.5rem;
     background-color: rgb(110, 172, 207);
   }
-  .title {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-  }
 
   .search-wrap {
     display: flex;
@@ -129,10 +97,10 @@ export default {
   .song-list-content {
     display: inline-block;
   }
-  .mv-list {
-    display: block;
-    padding: 0 20px;
-    margin: 30px 20px 0 0;
+
+  .mv-content {
+    display: flex;
+    justify-content: center;
   }
 }
 </style>
