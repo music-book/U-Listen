@@ -1,7 +1,7 @@
 import request from "@/utils/request";
 
 // 搜索
-export async function search(words, limit = 10, type = 1) {
+export async function searchSong(words, limit = 10, type = 1) {
   let results = request({
     url: "/search",
     params: {

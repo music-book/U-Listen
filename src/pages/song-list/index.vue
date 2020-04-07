@@ -68,28 +68,38 @@
       </el-dialog>
     </div>
     <div class="song-list-content" v-loading="loading">
-      <SingleSong
-        v-for="song in songList"
-        :key="song.id"
-        :song="song"
-      ></SingleSong>
+      <div v-if="type === 1" class="single-song">
+        <p>单曲</p>
+        <SingleSong
+          v-for="song in songList"
+          :key="song.id"
+          :song="song"
+        ></SingleSong>
+      </div>
+      <div v-if="type === 10" class="album">
+        <p>专辑</p>
+        <Album :list="albumList"></Album>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import SingleSong from "@/components/MusicList";
-import { search, getSongURL } from "@/api/search";
+import Album from "@/components/Album";
+import { searchSong, getSongURL } from "@/api/search";
 import { loginByPhone } from "@/api/login";
 import { getLyric, getSongDetail } from "@/api/song";
 import typeList from "@/utils/typeOptions";
 export default {
   components: {
-    SingleSong
+    SingleSong,
+    Album
   },
   data() {
     return {
       songList: [],
+      albumList: [],
       search: "周杰伦",
       type: 1,
       typeList: typeList,
@@ -145,10 +155,7 @@ export default {
       });
       return songsInfo;
     },
-
-    async serachMusic() {
-      this.loading = true;
-      let results = await search(this.search, 10, this.type);
+    async singSongFormat(results) {
       let songs = results.data.result.songs;
       let list = [];
       for (let i = 0, len = songs.length; i < len; i++) {
@@ -169,6 +176,28 @@ export default {
 
       this.songList = this.convertSongs(songs, list);
       this.loading = false;
+    },
+    async albumFormat(results) {
+      console.log(results);
+      let albums = results.data.result.albums || [];
+      this.albumList = albums;
+      this.loading = false;
+    },
+    async serachMusic() {
+      this.loading = true;
+      const { type, search } = this;
+      let results = await searchSong(search, 10, type);
+
+      // 单曲
+      if (type === 1) {
+        this.singSongFormat(results);
+      }
+
+      // 专辑
+      if (type === 10) {
+        //
+        this.albumFormat(results);
+      }
     }
   },
   mounted() {
@@ -216,10 +245,17 @@ export default {
     flex-wrap: wrap;
     padding: 20px;
     margin-bottom: 30px;
-    &::after {
-      content: "";
-      flex-basis: calc(47.6%);
-      flex-shrink: 1;
+
+    .single-song {
+      &::after {
+        content: "";
+        // flex-basis: calc(47.6%);
+        // flex-shrink: 1;
+      }
+    }
+
+    .album {
+      width: 100%;
     }
   }
 }

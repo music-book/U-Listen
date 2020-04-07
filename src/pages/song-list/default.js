@@ -101,5 +101,70 @@ const defaultList = [
     theme: "rgb(211, 99, 35)"
   }
 ];
-
+// {
+//   "name": "Partners 拍档",
+//   "id": 18909,
+//   "type": "专辑",
+//   "size": 13,
+//   "picId": 84662395339570,
+//   "blurPicUrl": "http://p4.music.126.net/8jJexFFezjT6003BB2JAdQ==/84662395339570.jpg",
+//   "companyId": 0,
+//   "pic": 84662395339570,
+//   "picUrl": "http://p3.music.126.net/8jJexFFezjT6003BB2JAdQ==/84662395339570.jpg",
+//   "publishTime": 1017590400000,
+//   "description": "",
+//   "tags": "",
+//   "company": "阿尔发音乐",
+//   "briefDesc": "",
+//   "artist": {
+//     "name": "周杰伦",
+//     "id": 6452,
+//     "picId": 109951163111196200,
+//     "img1v1Id": 18686200114669624,
+//     "briefDesc": "",
+//     "picUrl": "http://p4.music.126.net/ql3nSwy0XKow_HAoZzRZgw==/109951163111196186.jpg",
+//     "img1v1Url": "http://p3.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg",
+//     "albumSize": 36,
+//     "alias": [
+//       "Jay Chou"
+//     ],
+//     "trans": "",
+//     "musicSize": 632,
+//     "topicPerson": 0,
+//     "picId_str": "109951163111196186",
+//     "img1v1Id_str": "18686200114669622",
+//     "alia": [
+//       "Jay Chou"
+//     ]
+//   },
+//   "songs": null,
+//   "alias": [
+//     "周杰伦方文山联手创作精选"
+//   ],
+//   "status": 3,
+//   "copyrightId": 5003,
+//   "commentThreadId": "R_AL_3_18909",
+//   "artists": [
+//     {
+//       "name": "周杰伦",
+//       "id": 6452,
+//       "picId": 0,
+//       "img1v1Id": 18686200114669624,
+//       "briefDesc": "",
+//       "picUrl": "http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+//       "img1v1Url": "http://p4.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg",
+//       "albumSize": 0,
+//       "alias": [],
+//       "trans": "",
+//       "musicSize": 0,
+//       "topicPerson": 0,
+//       "img1v1Id_str": "18686200114669622"
+//     }
+//   ],
+//   "paid": false,
+//   "onSale": false,
+//   "alg": "alg_album_hotartist_a",
+//   "mark": 0,
+//   "containedSong": ""
+// }
 export default defaultList;
