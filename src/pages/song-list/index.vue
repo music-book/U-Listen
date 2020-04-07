@@ -148,9 +148,9 @@ export default {
       return songsInfo;
     },
 
-    async serachMusic(value) {
+    async serachMusic() {
       this.loading = true;
-      let results = await search(value, 10, this.type);
+      let results = await search(this.search, 10, this.type);
       let songs = results.data.result.songs;
       let list = [];
       for (let i = 0, len = songs.length; i < len; i++) {
@@ -215,6 +215,11 @@ export default {
     flex-wrap: wrap;
     padding: 20px;
     margin-bottom: 30px;
+    &::after {
+      content: "";
+      flex-basis: calc(47.6%);
+      flex-shrink: 1;
+    }
   }
 }
 </style>
