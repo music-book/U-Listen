@@ -8,7 +8,12 @@
         @change="serachMusic"
         class="input-with-select"
       >
-        <el-select v-model="type" slot="prepend" placeholder="搜索类型">
+        <el-select
+          v-model="type"
+          slot="prepend"
+          placeholder="搜索类型"
+          @change="typeChange"
+        >
           <el-option
             v-for="item in typeList"
             :key="item.value"
@@ -69,7 +74,7 @@
     </div>
     <div class="song-list-content" v-loading="loading">
       <div v-if="type === 1" class="single-song">
-        <p>单曲</p>
+        <p class="title">单曲</p>
         <SingleSong
           v-for="song in songList"
           :key="song.id"
@@ -77,7 +82,7 @@
         ></SingleSong>
       </div>
       <div v-if="type === 10" class="album">
-        <p>专辑</p>
+        <p>专辑评论</p>
         <Album :list="albumList"></Album>
       </div>
     </div>
@@ -120,6 +125,9 @@ export default {
   },
 
   methods: {
+    typeChange() {
+      this.serachMusic();
+    },
     login() {
       const { phone, password } = this.ruleForm;
       loginByPhone(phone, password).then(loginInfo => {
@@ -135,6 +143,7 @@ export default {
         this.name = data.account.userName;
       });
     },
+    // 单曲格式转化，将不同接口的数据进行整合
     convertSongs(songs, urlArray) {
       let songsInfo = [];
       songs.forEach(item => {
@@ -241,16 +250,22 @@ export default {
 
   .song-list-content {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     padding: 20px;
     margin-bottom: 30px;
 
     .single-song {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .title {
+        display: block;
+        width: 100%;
+      }
       &::after {
         content: "";
-        // flex-basis: calc(47.6%);
-        // flex-shrink: 1;
+        flex-basis: calc(47.6%);
+        flex-shrink: 1;
       }
     }
 
