@@ -83,14 +83,13 @@ import { search, getSongURL } from "@/api/search";
 import { loginByPhone } from "@/api/login";
 import { getLyric, getSongDetail } from "@/api/song";
 import typeList from "@/utils/typeOptions";
-import defaultList from "./default";
 export default {
   components: {
     SingleSong
   },
   data() {
     return {
-      songList: defaultList || [],
+      songList: [],
       search: "周杰伦",
       type: 1,
       typeList: typeList,
@@ -114,7 +113,6 @@ export default {
     login() {
       const { phone, password } = this.ruleForm;
       loginByPhone(phone, password).then(loginInfo => {
-        // console.log(loginInfo);
         let data = loginInfo.data;
         let code = data.code;
 
@@ -172,6 +170,9 @@ export default {
       this.songList = this.convertSongs(songs, list);
       this.loading = false;
     }
+  },
+  mounted() {
+    this.serachMusic();
   }
 };
 </script>
