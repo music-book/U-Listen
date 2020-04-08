@@ -5,6 +5,7 @@
       :poster="videoInfo.cover"
       :src="videoInfo.url"
       controls
+      controlslist="nodownload"
     ></video>
   </div>
 </template>
