@@ -227,6 +227,7 @@ export default {
     width: 100%;
     height: 150px;
     font-size: 1.5rem;
+    color: #ffffff;
     background-color: rgb(110, 172, 207);
   }
   .login-btn {
