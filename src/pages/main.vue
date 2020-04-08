@@ -3,16 +3,19 @@
     <SongList></SongList>
     <!-- top 10 MV -->
     <MVContent></MVContent>
+    <Ability class="ability"> </Ability>
   </div>
 </template>
 
 <script>
 import SongList from "./song-list/index";
 import MVContent from "./mv/index";
+import Ability from "@/components/Ability";
 export default {
   components: {
     SongList,
-    MVContent
+    MVContent,
+    Ability
   },
   data() {
     return {};
@@ -27,5 +30,8 @@ export default {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  .ability {
+    margin: 20px;
+  }
 }
 </style>
