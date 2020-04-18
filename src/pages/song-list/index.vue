@@ -1,6 +1,10 @@
 <template>
   <div class="song-wrap">
     <div class="main-title">U-Listen,听见不一样的世界</div>
+    <div class="audio-visible">
+      <AudioVisible></AudioVisible>
+    </div>
+
     <div class="search-wrap">
       <el-input
         placeholder="请输入内容"
@@ -91,15 +95,18 @@
 
 <script>
 import SingleSong from "@/components/MusicList";
+import AudioVisible from '../audio-visible/audio'
 import Album from "@/components/Album";
 import { searchSong, getSongURL } from "@/api/search";
 import { loginByPhone } from "@/api/login";
 import { getLyric, getSongDetail } from "@/api/song";
 import typeList from "@/utils/typeOptions";
+
 export default {
   components: {
     SingleSong,
-    Album
+    Album,
+    AudioVisible
   },
   data() {
     return {
@@ -228,7 +235,11 @@ export default {
     height: 150px;
     font-size: 1.5rem;
     color: #ffffff;
-    background-color: rgb(110, 172, 207);
+    background-color: rgb(110, 173, 208);
+  }
+  .audio-visible{
+    width: 100%;
+    display:block;
   }
   .login-btn {
     float: right;

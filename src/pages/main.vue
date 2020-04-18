@@ -1,8 +1,10 @@
 <template>
   <div class="mv-list-container">
+    <!-- single song   -->
     <SongList></SongList>
     <!-- top 10 MV -->
     <MVContent></MVContent>
+    <!-- disclaimer  -->
     <Ability class="ability"> </Ability>
   </div>
 </template>
@@ -27,11 +29,12 @@ export default {
 .mv-list-container {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   .ability {
-    margin: 20px;
+    padding: 20px;
   }
 }
 </style>
