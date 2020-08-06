@@ -2,7 +2,7 @@
 <p align='center' style='font-size:1.5rem'>U-Listen，听见不一样的世界</p>
 <hr/>
 
-### 说明
+### 说明文档
 
 **⚠️ 本项目仅供学习交流，不得用于商业用途**
 
