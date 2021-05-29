@@ -1,4 +1,4 @@
-<p align="center"><a href="http://u-listen.qjidea.com/" target="_blank" rel="noopener noreferrer"><img width="100" src="./public/favicon.svg" alt="music logo"></a></p>
+<p align="center"><a href="https://u-listen.qjidea.com/" target="_blank" rel="noopener noreferrer"><img width="100" src="./public/favicon.svg" alt="music logo"></a></p>
 <p align='center' style='font-size:1.5rem'>U-Listen，听见不一样的世界</p>
 <hr/>
 
