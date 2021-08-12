@@ -26,6 +26,8 @@ yarn build
 
 ### [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ### 免责声明
 
